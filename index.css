@@ -1,0 +1,129 @@
+body{
+    box-sizing: border-box;
+    background-color: hsl(216, 12%, 8%);
+    /* background-color: hsl(213, 19%, 18%); */
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 , .container2{
+    background-color: hsl(213, 19%, 18%);
+    /* background-color: hsl(216, 12%, 8%); */
+    color: hsl(0, 0%, 100%);
+    font-family: cursive;
+    margin-top: 200px;
+    padding: 30px;
+    border-radius: 40px;
+    width: 300px;
+}
+
+.container1 h2{
+    margin-bottom: 5px;
+    margin-top: 13px;
+}
+
+.container1 .text{
+    margin-top: 5px;
+    color:hsl(217, 12%, 63%) !important;
+    text-align: justify;
+}
+
+.star {
+    padding: 10px;
+    background-color: hsl(210, 7%, 22%);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+.radio button {
+    padding: 15px;
+    background-color: hsl(210, 7%, 22%);
+    border: none;
+    border-radius: 50%;
+    color:hsl(217, 12%, 63%);
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 18px;
+    text-align: center;
+  }
+
+  
+  .rating button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+  
+  .rating button:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+  
+  .sub button{
+    margin-top: 20px;
+    background-color:  hsl(25, 97%, 53%);
+    width: 100%;
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .sub button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+
+  .box2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-62%);
+}
+
+  #box2{
+      display: none;
+  }
+
+  .attribution{
+      color: white;
+      display: block;
+  }
+
+.img_thanks{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.disp_rating{
+    background-color: hsl(214, 19%, 23%);
+    color : hsl(25, 97%, 53%);
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 22px;
+    padding: 3px 10px;
+    border-radius: 15px;
+}
+
+.thank_msg{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 25px;
+}
+
+
+.desc_thanks{
+    margin-top: 10px;
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+}
+
